@@ -140,7 +140,7 @@ namespace tlogger5
                     end = end + span;
                 }
                 DateTime end2 = currt + end;
-                txtExpectend.Text = end2.ToString(@"hh\:mm");
+                txtExpectend.Text = end2.ToString(@"HH\:mm");
             }
         }
 
